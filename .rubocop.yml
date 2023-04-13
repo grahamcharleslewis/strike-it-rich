@@ -1,0 +1,10 @@
+AllCops:
+  NewCops: enable
+  Include:
+  - "lib/**/*.rb"
+  - "spec/**/*_spec.rb"
+  Exclude: 
+    - "bin/**/*"
+    - "bundle/**/*"
+Style/Documentation:
+  Enabled: false
