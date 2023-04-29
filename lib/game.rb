@@ -17,6 +17,8 @@ players = []
   players << Player.new(number)
 end
 
+# [1, 2, 3].rotate(0).each { |i| puts i }
+
 players.each do |player|
   monthly_operations.each do |operation|
     player.send(operation)
